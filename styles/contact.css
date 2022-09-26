@@ -226,33 +226,33 @@ details[open] summary::before {
     text-shadow: 2px 2px 2px rgb(70, 70, 255);
   }
 }
-body .background .container {
+.container {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-body .background .container main {
+.container main {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-body .background .container main .form {
+.container main .form {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 3rem;
 }
-body .background .container main .form form {
+.container main .form form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-body .background .container main .form form input, body .background .container main .form form textarea {
+.container main .form form input, .container main .form form textarea {
   margin: 5px;
   padding: 5px;
 }
-body .background .container main .form form input[type=submit] {
+.container main .form form input[type=submit] {
   color: white;
   font-weight: bold;
   background-color: #9552ff;
@@ -260,11 +260,11 @@ body .background .container main .form form input[type=submit] {
   border-radius: 10px;
   padding: 10px 40px;
 }
-body .background .container main .form form input[type=submit]:hover {
+.container main .form form input[type=submit]:hover {
   -webkit-animation: colorwheel2 7s ease-in infinite;
           animation: colorwheel2 7s ease-in infinite;
 }
-body .background .container main .form form input[type=submit]:active {
+.container main .form form input[type=submit]:active {
   background-color: black;
 }
 
